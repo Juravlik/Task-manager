@@ -1,3 +1,5 @@
+//created by newStarOfFrontEnd(BreR)
+
 'use strict';
 
 class requestController {
@@ -82,35 +84,4 @@ function validateReg(email, passwordFirst, passwordSecond) {
 		return true;
 	}
 }
-
-/*function validateReg() {
-	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-	var email = document.getElementById('email').value
-	var passwordFirst = document.getElementById('passwordFirst').value
-	var passwordSecond = document.getElementById('passwordSecond').value
-
-	if(reg.test(email) == false || passwordFirst == '' || passwordSecond == '') {
-		alert('Введите корректные данные');
-		return false;
-		} else if(reg.test(email) == true && passwordFirst != passwordSecond){
-			alert('Введите корректные данные');
-			return false;
-	} else {
-		alert('Класс!!');
-		return true;
-	}
-} */ //test with parse document 
-
-/*function validateAuth() {
-	var email = document.getElementById('email').value
-	var password = document.getElementById('password').value
-	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-
-	if(reg.test(email) == false || password == '') {
-		alert('Введите корректные данные');
-		return false;
-		} else {
-			return true;
-	}   
-}*/ //test with parse document 
 
